@@ -1,0 +1,8 @@
+security:
+  oauth2:
+    client:
+      clientId: tutorialspoint
+      clientSecret: my-secret-key
+      accessTokenUri: http://localhost:8080/oauth/token
+      userAuthorizationUri: http://localhost:8080/oauth/token
+      clientAuthenticationScheme: form
